@@ -4,6 +4,7 @@
 @layer base {
   body {
     @apply font-light leading-[1.75] text-gray-600 dark:text-gray-400;
+
     @screen md {
       font-size: 20px;
     }
@@ -13,8 +14,9 @@
 .link {
   @apply underline decoration-dotted underline-offset-4 transition-colors duration-300;
 }
+
 .link:hover {
-  @apply text-black dark:text-white;
+  @apply text-black dark:text-white underline;
 }
 
 .title {
