@@ -27,9 +27,10 @@ const resourceCategories = [
         name: "Swyx's blog",
         url: "https://www.swyx.io/ideas?filter=devrel",
       },
-      { name: "Lee's blog",
-        url: "https://leerob.com/n/devtools",
       {
+        name: "Lee's blog",
+        url: "https://leerob.com/n/devtools",
+      }, {
         name: "Kurt Kemple's blog",
         url: "https://theworst.dev/content",
       },
