@@ -6,7 +6,7 @@ const pillarsOfDevRel = [
     responsibilities: [
       "Organizing events",
       "Doing livestreams",
-      "Discord/Slack community",
+      "Telegram/Discord/Slack community",
       "Talking to users for feedback",
     ],
   },
@@ -29,7 +29,7 @@ const pillarsOfDevRel = [
       "Iterating on docs",
       "Coding examples & starters",
       "Working on integrations",
-      "Improving the overall DX",
+      "Improving the overall DX*",
     ],
   },
 ];
@@ -64,6 +64,11 @@ export default function ThreePillars() {
           </div>
         );
       })}
+      <div>
+        <small className="text-sm text-gray-500 italic">
+          * DX = Developer Experience
+        </small>
+      </div>
     </div>
   );
 }

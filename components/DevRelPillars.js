@@ -22,7 +22,7 @@ export default function DevRelPillars() {
         <p>
           <span className="font-bold">Community-focused DevRel</span> centers
           around growing and managing a community of developers. This is usually
-          a Slack or Discord community that's focused on a company's product or
+          a Slack, Discord, or Telegram community that's focused on a company's product or
           an open source technology. Managing a community consists of answering
           questions, designing the community in an inclusive way, and making
           sure members are getting value through activities like livestreams and
@@ -41,6 +41,9 @@ export default function DevRelPillars() {
           new feature launches.
         </p>
 
+        <small className="text-sm text-gray-500 italic">
+          * SEO = Search Engine Optimization
+        </small>
         <h3 className="title mb-4 mt-8 text-3xl sm:text-4xl">
           The DX Engineer
         </h3>

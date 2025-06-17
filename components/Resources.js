@@ -30,9 +30,6 @@ const resourceCategories = [
       {
         name: "Lee's blog",
         url: "https://leerob.com/n/devtools",
-      }, {
-        name: "Kurt Kemple's blog",
-        url: "https://theworst.dev/content",
       },
       {
         name: "StephanieMorillo's Blog",
@@ -94,7 +91,7 @@ const resourceCategories = [
       },
       {
         name: "The DevRelX podcast",
-        url: "https://www.devrelx.com/podcast",
+        url: "https://www.slashdata.co/developer-marketing-podcast",
       },
     ],
   },
